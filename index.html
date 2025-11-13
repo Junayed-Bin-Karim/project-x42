@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Manager</title>
+    <title>Junayed Contacts</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -11,9 +11,9 @@
     <!-- Password Screen -->
     <div class="password-screen" id="passwordScreen">
         <div class="password-form">
-            <h1>Junayed Contact Manager</h1>
-         <p>Please enter  password to access Junayed Bin Karim’s contacts</p>
-           <p class="password-hint">Hint: 1234</p>
+            <h1>Junayed Contacts</h1>
+            <p>Please enter your password to access Junayed Bin Karim’s contacts</p>
+            <p class="password-hint">Hint: 1234</p>
             <input type="password" class="password-input" id="passwordInput" placeholder="Enter password">
             <button class="submit-btn" id="submitPassword">Access Contacts</button>
             <div class="error-message" id="passwordError">Incorrect password. Please try again.</div>
@@ -22,40 +22,52 @@
 
     <!-- Main App -->
     <div class="main-app" id="mainApp">
+        <!-- Header -->
         <header>
             <div class="container header-content">
                 <div class="app-title">Junayed Contacts</div>
                 <div class="search-bar">
                     <input type="text" class="search-input" id="searchInput" placeholder="Search contacts...">
                 </div>
-                <button class="logout-btn" id="logoutBtn">
-                    <i class="fas fa-sign-out-alt"></i> Logout
-                </button>
+                <div class="user-info">
+                    <span>Welcome, Junayed Bin Karim</span>
+                    <button class="logout-btn" id="logoutBtn">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
             </div>
         </header>
 
-        <div class="container">
+        <!-- Categories and Contacts -->
+        <div class="container main-content">
             <nav class="category-nav">
                 <ul class="category-list" id="categoryList">
-                    <!-- Categories will be populated by JavaScript -->
+                    <!-- Categories dynamically populated by JS -->
                 </ul>
             </nav>
 
             <section class="contacts-section">
                 <h2 class="section-title" id="sectionTitle">All Contacts</h2>
                 <div class="contacts-grid" id="contactsGrid">
-                    <!-- Contact cards will be populated by JavaScript -->
+                    <p class="empty-message" id="emptyMessage">No contacts found. Add new contacts to get started.</p>
+                    <!-- Contact cards dynamically populated by JS -->
                 </div>
             </section>
         </div>
+
+        <!-- Copy Notification -->
+        <div class="copy-notification" id="copyNotification">
+            <i class="fas fa-check"></i>
+            <span>Phone number copied!</span>
+        </div>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Junayed Contacts &copy; 2025 | Version 1.0 | Developed by Junayed Bin Karim</p>
+        </footer>
     </div>
 
-    <!-- Copy Notification -->
-    <div class="copy-notification" id="copyNotification">
-        <i class="fas fa-check"></i>
-        <span>Phone number copied!</span>
-    </div>
-
+    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 </html>

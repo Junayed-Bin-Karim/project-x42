@@ -4,7 +4,7 @@ const sampleContacts = [
     id: 1,
     name: "Nion",
     relationship: "Cousin",
-    photo: "/nion.jpeg",
+    photo: "nion.jpeg",
     phone: "+880 1521-559674",
     location: "Mirpur 6, Dhaka, Bangladesh",
     category: "Cousins",

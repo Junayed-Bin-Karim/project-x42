@@ -4,6 +4,7 @@ const sampleContacts = [
     id: 1,
     name: "Nion",
     relationship: "Cousin",
+    photo: "",
     phone: "+8801719474104",
     location: "Mirpur 6, Dhaka, Bangladesh",
     category: "Cousins",
@@ -16,7 +17,7 @@ const sampleContacts = [
     photo: "",
     phone: "+8801903430456",
     location: "Daffodil International University, Dhaka",
-    category: "Friend",
+    category: "Friends",
     note: "University friend. Always helpful and fun to talk with."
   },
   {
@@ -26,7 +27,7 @@ const sampleContacts = [
     photo: "",
     phone: "+8801771087871",
     location: "Dhaka, Bangladesh",
-    category: "Teacher",
+    category: "Teachers",
     note: "University teacher. Teaches web development and guides students."
   },
   {

@@ -357,6 +357,26 @@ header {
     color: #888;
     margin-top: 5px;
 }
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.empty-message {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 30px;
+}
 
 @media (max-width: 480px) {
     .contacts-grid {

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Password Screen -->
+    <div class="password-screen" id="passwordScreen">
+        <div class="password-form">
+            <h1>Junayed Contact Manager</h1>
+            <p>Enter password to access your contacts</p>
+            <input type="password" class="password-input" id="passwordInput" placeholder="Enter password">
+            <button class="submit-btn" id="submitPassword">Access Contacts</button>
+            <div class="error-message" id="passwordError">Incorrect password. Please try again.</div>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div class="main-app" id="mainApp">
+        <header>
+            <div class="container header-content">
+                <div class="app-title">Junayed Contacts</div>
+                <div class="search-bar">
+                    <input type="text" class="search-input" id="searchInput" placeholder="Search contacts...">
+                </div>
+                <button class="logout-btn" id="logoutBtn">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </header>
+
+        <div class="container">
+            <nav class="category-nav">
+                <ul class="category-list" id="categoryList">
+                    <!-- Categories will be populated by JavaScript -->
+                </ul>
+            </nav>
+
+            <section class="contacts-section">
+                <h2 class="section-title" id="sectionTitle">All Contacts</h2>
+                <div class="contacts-grid" id="contactsGrid">
+                    <!-- Contact cards will be populated by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Copy Notification -->
+    <div class="copy-notification" id="copyNotification">
+        <i class="fas fa-check"></i>
+        <span>Phone number copied!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

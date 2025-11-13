@@ -209,7 +209,102 @@ const sampleContacts = [
   location: "Popular Diagnostic Centre,Dinajpur, Bangladesh",
   category: "Doctors",
   note: "He diagnosed my hyperthyroid. Trusted specialist."
+},
+  {
+  id: 22,
+  name: "Savar Model Police Station",
+  relationship: "Traffic Police Station",
+  photo: "",
+  phone: "01713-373327",
+  location: "Savar, Dhaka, Bangladesh",
+  category: "Police",
+  note: "Traffic police station in Savar. Contact for traffic-related issues."
+},
+  {
+  id: 23,
+  name: "Hazrat Shahjalal International Airport Police Station",
+  relationship: "Airport Police Station",
+  photo: "",
+  phone: "01320-041880",
+  location: "Dhaka, Bangladesh",
+  category: "Police",
+  note: "Airport police station. Contact for security or emergency at the airport."
+},
+  
+{
+  id: 24,
+  name: "Dinajpur Police Station",
+  relationship: "Police Station",
+  photo: "",
+  phone: "0531-63132",
+  location: "JJPQ+CGR, Kalitola - Charubabaur Mor Rd, Dinajpur 5200, Bangladesh",
+  category: "Police",
+  note: "Local police station in Dinajpur. Contact for general law enforcement or emergencies."
+},
+  {
+  id: 25,
+  name: "Bochaganj Police Station",
+  relationship: "Police Station",
+  photo: "",
+  phone: "01713-373968",
+  location: "RF35+F3H, Bochaganj, Dinajpur, Bangladesh",
+  category: "Police",
+  note: "State police in Bochaganj Upazila. Contact for local law enforcement or emergencies."
+},
+  {
+  id: 26,
+  name: "Mirpur Police Station",
+  relationship: "Police Station",
+  photo: "",
+  phone: "01332-483518",
+  location: "Mirpur, Dhaka, Bangladesh",
+  category: "Police",
+  note: "Local police station in Mirpur. Contact for law enforcement or emergencies."
+},
+{
+  id: 27,
+  name: "Kotwali Police Station - Officer in Charge",
+  relationship: "Police Station",
+  photo: "",
+  phone: "01320136391",
+  location: "Kotwali, Dinajpur, Bangladesh",
+  category: "Police",
+  note: "Officer in charge at Kotwali Police Station."
+},
+{
+  id: 28,
+  name: "Kotwali Police Station - Duty Officer",
+  relationship: "Police Station",
+  photo: "",
+  phone: "01320136396",
+  location: "Kotwali, Dinajpur, Bangladesh",
+  category: "Police",
+  note: "Duty officer at Kotwali Police Station."
+},
+{
+  id: 29,
+  name: "Birol Police Station - Officer in Charge",
+  relationship: "Police Station",
+  photo: "",
+  phone: "01320136443",
+  location: "Birol, Dinajpur, Bangladesh",
+  category: "Police",
+  note: "Officer in charge at Birol Police Station."
+},
+  {
+  id: 30,
+  name: "Operation Control Room",
+  relationship: "Police Control",
+  photo: "",
+  phone: "+8801320001299 / +8801320001300 / +880-2-223381967 / +880-2-223383515",
+  location: "Dhaka, Bangladesh",
+  category: "Police",
+  note: "Central police operation control room. Email: oic_opscr@police.gov.bd. Fax: +880-2-9563362, +880-2-9563358, +880-2-7126305, +880-2-9562330, +880-2-55102505."
 }
+
+
+
+
 
 ];
 

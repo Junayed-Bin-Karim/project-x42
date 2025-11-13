@@ -5,7 +5,7 @@ const sampleContacts = [
     name: "Nion",
     relationship: "Cousin",
     photo: "",
-    phone: "+8801719474104",
+    phone: "+880 1521-559674",
     location: "Mirpur 6, Dhaka, Bangladesh",
     category: "Cousins",
     note: "Close cousin. Lives in Mirpur 6, Dhaka."
@@ -109,8 +109,110 @@ const sampleContacts = [
     location: "Setabganj, Dinajpur, Bangladesh",
     category: "Family",
     note: "My father — guiding force and inspiration behind my journey."
-  }
+  },
+  {
+    id: 12,
+    name: "Mojibor Mama",
+    relationship: "Uncle",
+    photo: "",
+    phone: "01721009844",
+    location: "Labur Mor, Dinajpur, Bangladesh",
+    category: "Family",
+    note: "Close uncle. Always supportive and guiding."
+  },
+  {
+    id: 13,
+    name: "Asfak",
+    relationship: "Brother",
+    photo: "",
+    phone: "+8801625496989",
+    location: "Shamoli, Dhaka, Bangladesh",
+    category: "Cousins",
+    note: "Cousin and brother figure. Easygoing and helpful."
+  },
+  {
+    id: 14,
+    name: "Akash",
+    relationship: "Friend",
+    photo: "",
+    phone: "+8801826093367",
+    location: "Dhanmondi, Dhaka, Bangladesh",
+    category: "Friends",
+    note: "Good friend from school/college. Fun and trustworthy."
+  },
+  {
+    id: 15,
+    name: "Sahariar Nafis Ovi",
+    relationship: "DIU Friend",
+    photo: "",
+    phone: "+8801787125363",
+    location: "Savar, Dhaka, Bangladesh",
+    category: "Friends",
+    note: "DIU friend. Very helpful and a great listener."
+  },
+  {
+    id: 16,
+    name: "Alif Nur",
+    relationship: "DIU Friend",
+    photo: "",
+    phone: "+8801706035232",
+    location: "Mirpur, Dhaka, Bangladesh",
+    category: "Friends",
+    note: "DIU friend. Enjoys working on projects together."
+  },
+  {
+    id: 17,
+    name: "Babu Uncal",
+    relationship: "Uncle",
+    photo: "",
+    phone: "+8801911250862",
+    location: "Badda, Dhaka, Bangladesh",
+    category: "Family",
+    note: "Uncle living in Dhaka. Very supportive and caring."
+  },
+  {
+    id: 18,
+    name: "Nanju Chaci",
+    relationship: "Aunt",
+    photo: "",
+    phone: "+8801912939277",
+    location: "Dinajpur, Bangladesh",
+    category: "Family",
+    note: "Beloved aunt. Always helpful in family matters."
+  },
+  {
+    id: 19,
+    name: "Babu2 Uncal",
+    relationship: "Uncle",
+    photo: "",
+    phone: "+8801938804298",
+    location: "Badda, Dhaka, Bangladesh",
+    category: "Family",
+    note: "Another uncle in Dhaka. Very reliable and kind."
+  },
+  {
+    id: 20,
+    name: "Asik Vai",
+    relationship: "Brother",
+    photo: "",
+    phone: "+8801833307126",
+    location: "Kushtia, Bangladesh",
+    category: "Cousins",
+    note: "Cousin and elder brother figure. Friendly and supportive."
+  },
+  {
+  id: 21,
+  name: "Dr. Razwanul",
+  relationship: "Doctor",
+  photo: "",
+  phone: "+8801720436336",
+  location: "Popular Diagnostic Centre,Dinajpur, Bangladesh",
+  category: "Doctors",
+  note: "He diagnosed my hyperthyroid. Trusted specialist."
+}
+
 ];
+
 
 
 
@@ -143,7 +245,7 @@ const copyNotification = document.getElementById('copyNotification');
 // App State
 let currentCategory = 'All';
 let contacts = [];
-let categories = ['All', 'Family', 'Friends', 'Teachers', 'Cousins', 'CEO', 'Office', 'Police', 'Fair Service', 'Dhaka Restaurants'];
+let categories = ['All', 'Family', 'Friends', 'Teachers', 'Cousins', 'CEO', 'Office', 'Police', 'Fair Service', 'Doctors'];
 
 // Initialize the app
 function initApp() {

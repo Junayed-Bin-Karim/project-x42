@@ -4,10 +4,9 @@ const sampleContacts = [
     id: 1,
     name: "Nion",
     relationship: "Cousin",
-    photo: "",
     phone: "+8801719474104",
     location: "Mirpur 6, Dhaka, Bangladesh",
-    category: "Cousin & Family",
+    category: "Cousins",
     note: "Close cousin. Lives in Mirpur 6, Dhaka."
   },
   {

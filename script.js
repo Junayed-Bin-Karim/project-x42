@@ -300,8 +300,28 @@ const sampleContacts = [
   location: "Dhaka, Bangladesh",
   category: "Police",
   note: "Central police operation control room. Email: oic_opscr@police.gov.bd. Fax: +880-2-9563362, +880-2-9563358, +880-2-7126305, +880-2-9562330, +880-2-55102505."
+},
+  
+  {
+  id: 31,
+  name: "Dinajpur Fire Service",
+  relationship: "Fire Service",
+  photo: "",
+  phone: "০190102325106",
+  location: "Dinajpur, Bangladesh",
+  category: "Fair Service",
+  note: "Local fire service in Dinajpur. Contact for emergencies."
+},
+{
+  id: 32,
+  name: "Setabganj Fire Service",
+  relationship: "Fire Service",
+  photo: "",
+  phone: "০1901023263",
+  location: "Setabganj, Dinajpur, Bangladesh",
+  category: "Fair Service",
+  note: "Local fire service in Setabganj. Contact for emergencies."
 }
-
 
 
 

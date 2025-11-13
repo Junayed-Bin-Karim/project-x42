@@ -187,7 +187,7 @@ function handlePasswordSubmit() {
     const password = passwordInput.value;
     console.log('Password submitted:', password); // Debug log
     // Simple client-side password check
-    if (password === 'hello junayed') {
+    if (password === '1234') {
         sessionStorage.setItem('authenticated', 'true');
         showMainApp();
     } else {
